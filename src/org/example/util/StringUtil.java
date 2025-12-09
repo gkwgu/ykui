@@ -1,5 +1,7 @@
-public class Reversed{
-     public String reverse(String str) {
+package org.example.util;
+
+public class StringUtil {
+     public String reverseLetters(String str) {
          if (str == null || str.isEmpty()) {
              return "";
          }
